@@ -1,0 +1,12 @@
+apply plugin: 'groovy'
+
+groovyVersion = '1.8.1'
+
+repositories {
+    mavenRepo urls: 'http://repo.grails.org/grails/core'
+}
+
+dependencies {
+    groovy "org.codehaus.groovy:groovy-all:${groovyVersion}"
+    testCompile 'junit:junit:4.8.1'
+}
